@@ -25,7 +25,7 @@ logIn = driver.find_element_by_id('login_field')
 logIn.send_keys('fkbokovi@gmail.com')
 
 password = driver.find_element_by_id('password')
-password.send_keys('Mus32Ate')
+password.send_keys('#########')
 
 signIn = driver.find_element_by_xpath('//*[@id="login"]/form/div[4]/input[12]')
 signIn.click()
